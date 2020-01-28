@@ -175,7 +175,7 @@ a:focus{
 	width: 28%;
 	background: rgba(255,255,255,0.3);
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
 	font-weight: 600;
@@ -213,6 +213,17 @@ a:focus{
 		padding-top: 6px;
 		font-size: 16px;
 	}
+
+	.logo img{
+		width: 60%;
+		height: auto;
+	}
+	.new-text {
+		width: 65%;
+	}
+	.new-btn {
+		width: 35%;
+	}
 }
 
 @media only screen and (max-width:568px){
@@ -228,7 +239,7 @@ a:focus{
 	}
 	
 	.new-btn{
-		width: 160px;
+		width: 210px;
 	}
 	
 	.comming-soon {
@@ -238,6 +249,11 @@ a:focus{
 		width: 100%;
 		min-height: 100%;
 		background: -webkit-linear-gradient(top,#2d3a3a,#2f3736);
+	}
+
+	.logo img{
+		width: 70%;
+		height: auto;
 	}
 }
 
