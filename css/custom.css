@@ -4,6 +4,16 @@
 	Author Url 		: https://awaikenthemes.com
 */
 
+::selection {
+	color: white;
+	background: #0e6631;
+}
+
+::moz-selection {
+	color: white;
+	background: #0e6631;
+}
+
 body{
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
